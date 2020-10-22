@@ -12,7 +12,7 @@ bundle install
 APPMAP=true bundle exec rake
 ```
 ## See it in action
-Watch how to use this script along with the [appland-cli](https://github.com/applandinc/appland-cli) to seemlessly configure, map, and upload appmaps generating from the [rails sample app 6th ed](https://github.com/mhartl/sample_app_6th_ed).
+Watch how to use this script along with the [appland-cli](https://github.com/applandinc/appland-cli) to seemlessly configure, map, and upload appmaps generated from [rails sample app 6th ed](https://github.com/mhartl/sample_app_6th_ed).
 
 [![asciicast](https://asciinema.org/a/ZWhesCFC7cvtILawK3OsIZbg2.svg)](https://asciinema.org/a/ZWhesCFC7cvtILawK3OsIZbg2)
 
