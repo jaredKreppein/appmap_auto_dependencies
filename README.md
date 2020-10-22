@@ -2,18 +2,9 @@
 A small ruby script that automatically adds the required dependencies to your ruby project so you can start appmapping right away.
 
 ## How to use the script
-clone the repo
+navigate to the directory you want to appmap and run
 ```sh
-git clone github.com/jaredKreppein/appmap_auto_dependencies
-cd appmap/auto_dependencies
-```
-move the script to whichever repository you want to map
-```sh
-cp generate_dependencies.rb /path/to/desired/repo/generate_dependencies.rb
-```
-run the script
-```sh
-ruby generate_dependencies.rb
+curl https://raw.githubusercontent.com/jaredKreppein/appmap_auto_dependencies/main/generate_dependencies.rb | ruby
 ```
 prepare and run your tests with [appmap](https://github.com/applandinc/appmap-ruby)
 ```sh
@@ -21,9 +12,9 @@ bundle install
 APPMAP=true bundle exec rake
 ```
 ## See it in action
-Watch how to use this script along with the [appland-cli](https://github.com/applandinc/appland-cli) to seemlessly configure, map, and upload appmaps of the [rails sample app 6th ed](https://github.com/mhartl/sample_app_6th_ed).
+Watch how to use this script along with the [appland-cli](https://github.com/applandinc/appland-cli) to seemlessly configure, map, and upload appmaps generating from the [rails sample app 6th ed](https://github.com/mhartl/sample_app_6th_ed).
 
-COMING SOON
+[![asciicast](https://asciinema.org/a/ZWhesCFC7cvtILawK3OsIZbg2.svg)](https://asciinema.org/a/ZWhesCFC7cvtILawK3OsIZbg2)
 
 Want to see the full appmaps? Check it out the [full mapset](https://app.land/applications/219?mapset=1932).
 
