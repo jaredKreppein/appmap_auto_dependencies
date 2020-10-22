@@ -2,6 +2,10 @@
 A Ruby script that automatically adds the required dependencies to your Ruby project so you can start AppMapping right away.
 
 ## How to use the script
+Make sure the `colorize gem,` is installed. If it is not, run
+```sh
+gem install colorize
+```
 Run this from the root directory of your project
 ```sh
 curl https://raw.githubusercontent.com/jaredKreppein/appmap_auto_dependencies/main/generate_dependencies.rb | ruby
