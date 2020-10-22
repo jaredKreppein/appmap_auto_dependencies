@@ -2,7 +2,6 @@ require 'fileutils'
 require 'colorize'
 
 class DependencyInjection
-  #APPMAP_GEM      = "gem 'appmap', github: 'applandinc/appmap-ruby', branch: 'master'"
   APPMAP_GEM      = "gem 'appmap'"
   APPMAP_RAILTIE  = "require 'appmap/railtie'"
   APPMAP_RSPEC    = "require 'appmap/rspec'"
