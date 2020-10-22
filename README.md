@@ -11,7 +11,7 @@ prepare and run your tests with [appmap](https://github.com/applandinc/appmap-ru
 bundle install
 APPMAP=true bundle exec rake
 ```
-Your AppMap data files will be automatically created and stored in /tmp/appmap
+Your AppMap data files will be automatically created and stored in `/tmp/appmap`.
 
 ## What it does
 - generate an `appmap.yml` by finding the core directories that house the app's code
