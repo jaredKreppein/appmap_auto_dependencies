@@ -1,5 +1,5 @@
 # AppMap Auto-configuration Script
-A Ruby script that automatically adds the required dependencies to your Ruby on Rails project so you can start AppMapping right away.
+A Ruby script that automatically adds the required dependencies to your Ruby project so you can start AppMapping right away.
 
 ## How to use the script
 Run this from the root directory of your project
