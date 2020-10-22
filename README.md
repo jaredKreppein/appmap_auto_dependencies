@@ -16,16 +16,15 @@ Watch how to use this script along with the [appland-cli](https://github.com/app
 
 [![asciicast](https://asciinema.org/a/ZWhesCFC7cvtILawK3OsIZbg2.svg)](https://asciinema.org/a/ZWhesCFC7cvtILawK3OsIZbg2)
 
-Want to see the full appmaps? Check it out the [full mapset](https://app.land/applications/219?mapset=1932).
-
+Want to see the uploaded appmaps? Check out the [full mapset here](https://app.land/applications/219?mapset=1932).
 
 ## What it does
-- generate an `appmap.yml` by finding core directories with ruby code inside
+- generate an `appmap.yml` by finding the core directories that house the app's code
 - add the appmap gem to `Gemfile`
 - determine which test suite the repo uses (Rspec, Minitest, Cucumber) and adds the corresponding appmap dependencies
-- determine if this is a rails app, and adds appmap railtie dependency<sup>1</sup>
+- determine if this is a rails app, and adds the appmap railtie dependency<sup>1</sup>
 
-<sup>1</sup>script currently only supports adding railtie dependencies if a `config/application.rb` exists. If you'd like to use this script with your rails app, follow the instructions from `appmap-ruby` in the link below
+<sup>1</sup>script currently only supports adding railtie dependencies if a `config/application.rb` exists. If you'd like to use this script with your rails app, follow the instructions from `appmap-ruby` in the link at the bottom.
 
 ## Appmap Ruby
 `appmap-ruby` is a Ruby Gem for recording
@@ -35,4 +34,4 @@ Want to see the full appmaps? Check it out the [full mapset](https://app.land/ap
 SHA, labels, etc). It's more granular than a performance profile, but it's less
 granular than a full debug trace. It's designed to be optimal for understanding the design intent and behavior of code.
 
-For more information on `appmap-ruby`, check out its [repo](https://github.com/applandinc/appmap-ruby).
+For more information on `appmap-ruby`, check out its [README](https://github.com/applandinc/appmap-ruby).
